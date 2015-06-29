@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from sympy import latex
 from sympy import solve
 from sympy import symbols
