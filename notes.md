@@ -1,7 +1,7 @@
 # Problem solving algorithm
 
-- Let `EQ` represent a list of the equations of interest.
-- Let `v(EQ)` represent the variables in the equations of EQ.
+- Let EQ represent a list of the equations of interest.
+- Let v(EQ) represent the variables in the equations of EQ.
 
 01. Parse the question to identify all VOI (variables of interest).
 02. [Optional] Identify the context of the problem.
