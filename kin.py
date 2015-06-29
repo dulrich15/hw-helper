@@ -1,9 +1,13 @@
 #!/usr/bin/python
 
-from sympy import *
-from sympy.abc import *
+from sympy import latex
+from sympy import solve
+from sympy import symbols
 
-x0, v0 = symbols('x0 v0')
+from sympy import Eq
+from sympy import Rational
+
+a, d, t, v, v0 = symbols('a d t v v0')
 
 kin1 = Eq(d, v0 * t + Rational(1,2) * a * t**2)
 kin2 = Eq(v, v0 + a * t)
