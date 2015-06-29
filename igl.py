@@ -1,9 +1,13 @@
-from sympy import *
-from sympy.abc import *
+from sympy import latex
+from sympy import solve
+from sympy import symbols
 
-# P,V,n,R,T = symbols(P,V,n,R,T)
+from sympy import Eq
+from sympy import Rational
 
-igl = Eq(P*V, n*R*T)
+P, V, n, R, T = symbols('P V n R T')
+
+igl = Eq(P * V, n * R * T)
 
 values = {
     R : 8.3144621,
