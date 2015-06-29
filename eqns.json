@@ -1,0 +1,1070 @@
+[
+    {
+        "pk": 18, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "A-s", 
+            "symbol": "C", 
+            "name": "coulomb", 
+            "quantity": "electric charge"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "N-m", 
+            "symbol": "J", 
+            "name": "joule", 
+            "quantity": "energy"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "K", 
+            "name": "kelvin", 
+            "quantity": "temperature"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "kg-m/s^2", 
+            "symbol": "N", 
+            "name": "newton", 
+            "quantity": "force"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "N/m^2", 
+            "symbol": "Pa", 
+            "name": "pascal", 
+            "quantity": "pressure"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "Wb/m^2", 
+            "symbol": "T", 
+            "name": "tesla", 
+            "quantity": "magnetic flux density"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "J/s", 
+            "symbol": "W", 
+            "name": "watt", 
+            "quantity": "power"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "J/A", 
+            "symbol": "Wb", 
+            "name": "weber", 
+            "quantity": "magnetic flux"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "kg", 
+            "name": "kilogram", 
+            "quantity": "mass"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "kg-m^2", 
+            "name": "", 
+            "quantity": "moment of inertia"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "m", 
+            "name": "meter", 
+            "quantity": "length"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "m/s", 
+            "name": "", 
+            "quantity": "speed"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "m/s^2", 
+            "name": "", 
+            "quantity": "acceleration"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "m^3", 
+            "name": "cubic meter", 
+            "quantity": "volume"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "mol", 
+            "name": "mole", 
+            "quantity": "number of"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "rad", 
+            "name": "radian", 
+            "quantity": "angle"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "rad/s", 
+            "name": "", 
+            "quantity": "angular speed"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "rad/s^2", 
+            "name": "", 
+            "quantity": "angular acceleration"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "eqns.unit", 
+        "fields": {
+            "equivalent": "", 
+            "symbol": "s", 
+            "name": "second", 
+            "quantity": "duration"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "B", 
+            "name": "Magnetic field", 
+            "unit": 8
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "F_grav", 
+            "name": "Force of gravity", 
+            "unit": 4
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "F_k", 
+            "name": "Kinetic friction", 
+            "unit": 4
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "F_net", 
+            "name": "Net force (vector sum)", 
+            "unit": 4
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "F_s_max", 
+            "name": "Static friction, maximum value", 
+            "unit": 4
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "F_ucm", 
+            "name": "Centripetal force", 
+            "unit": 4
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "H", 
+            "name": "Projectile height", 
+            "unit": 1
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "I", 
+            "name": "Moment of inertia", 
+            "unit": 10
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "KE_lin", 
+            "name": "Linear kinetic energy", 
+            "unit": 6
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "KE_rot", 
+            "name": "Kinetic energy (rotation)", 
+            "unit": 6
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "N", 
+            "name": "Normal support force", 
+            "unit": 4
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "P", 
+            "name": "Pressure", 
+            "unit": 11
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "R", 
+            "name": "Projectile range", 
+            "unit": 1
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "T", 
+            "name": "Temperature", 
+            "unit": 12
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "T", 
+            "name": "Period", 
+            "unit": 2
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "V", 
+            "name": "Volume", 
+            "unit": 13
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "W", 
+            "name": "Weight", 
+            "unit": 4
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "a", 
+            "name": "Acceleration", 
+            "unit": 14
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "alpha", 
+            "name": "Angular acceleration", 
+            "unit": 15
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "domega", 
+            "name": "Change in angular speed", 
+            "unit": 17
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "dt", 
+            "name": "Change in time (duration)", 
+            "unit": 2
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "dtheta", 
+            "name": "Change in angle", 
+            "unit": 5
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "m", 
+            "name": "Mass", 
+            "unit": 3
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "m1", 
+            "name": "Mass of object 1", 
+            "unit": 3
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "m2", 
+            "name": "Mass of object 2", 
+            "unit": 3
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "mu_k", 
+            "name": "Coefficient of kinetic friction", 
+            "unit": null
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "mu_s", 
+            "name": "Coefficient of static friction", 
+            "unit": null
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "n", 
+            "name": "Number of", 
+            "unit": 16
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "omega", 
+            "name": "Angular speed", 
+            "unit": 17
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "q", 
+            "name": "Electric charge", 
+            "unit": 18
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "r", 
+            "name": "Radius", 
+            "unit": 1
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "r12", 
+            "name": "Distance between objects 1 and 2", 
+            "unit": 1
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "s", 
+            "name": "Arc-length", 
+            "unit": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "t", 
+            "name": "Time (duration)", 
+            "unit": 2
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "theta", 
+            "name": "Angle", 
+            "unit": 5
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "v", 
+            "name": "Velocity", 
+            "unit": 19
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "v", 
+            "name": "Speed", 
+            "unit": 19
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "v0", 
+            "name": "Initial velocity", 
+            "unit": 19
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "x", 
+            "name": "Position", 
+            "unit": 1
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "eqns.variable", 
+        "fields": {
+            "symbol": "y", 
+            "name": "Vertical displacement", 
+            "unit": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "eqns.constant", 
+        "fields": {
+            "symbol": "G", 
+            "unit": "m^3/kg-s^2", 
+            "name": "Gravitational constant", 
+            "value": 6.67384e-11
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "eqns.constant", 
+        "fields": {
+            "symbol": "R", 
+            "unit": "J/K-mol", 
+            "name": "Ideal gas constant", 
+            "value": 8.3144621
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "eqns.constant", 
+        "fields": {
+            "symbol": "g", 
+            "unit": "m/s^2", 
+            "name": "Acceleration due to gravity (earth)", 
+            "value": 9.79775913
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "v = v_0 + at", 
+            "name": "Constant acceleration #1", 
+            "variables": [
+                7, 
+                8, 
+                5, 
+                6
+            ], 
+            "sympy": "v = v0 + a * t", 
+            "constants": [], 
+            "category": 2
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "x = v_0 + \\tfrac{1}{2} at^2", 
+            "name": "Constant acceleration #2", 
+            "variables": [
+                7, 
+                8, 
+                6, 
+                9
+            ], 
+            "sympy": "x = v0 + Rational(1,2) * a * t ** 2", 
+            "constants": [], 
+            "category": 2
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "x = vt - \\tfrac{1}{2} at^2", 
+            "name": "Constant acceleration #3", 
+            "variables": [
+                7, 
+                8, 
+                5, 
+                9
+            ], 
+            "sympy": "x = v * t - Rational(1,2) * a * t ** 2", 
+            "constants": [], 
+            "category": 2
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "x = \\tfrac{1}{2} (v + v_0)(t)", 
+            "name": "Constant acceleration #4", 
+            "variables": [
+                8, 
+                5, 
+                6, 
+                9
+            ], 
+            "sympy": "x = Rational(1,2) * (v + v0) * t", 
+            "constants": [], 
+            "category": 2
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "v^2 = v_0^2 + 2ax", 
+            "name": "Constant acceleration #5", 
+            "variables": [
+                7, 
+                5, 
+                6, 
+                9
+            ], 
+            "sympy": "v ** 2 = v0 ** 2 + 2 * a * x", 
+            "constants": [], 
+            "category": 2
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "t = \\dfrac{2v_0}{g} \\sin(\\theta)", 
+            "name": "Projectile motion, duration", 
+            "variables": [
+                8, 
+                20, 
+                6
+            ], 
+            "sympy": "t = ( 2 * v0 / g ) * sin( theta )", 
+            "constants": [
+                3
+            ], 
+            "category": 2
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "H = \\dfrac{v_0^2}{g} \\sin^2 (\\theta)", 
+            "name": "Projectile motion, height", 
+            "variables": [
+                21, 
+                20, 
+                6
+            ], 
+            "sympy": "H = ( v0 ** 2 / g ) * sin( theta ) ** 2", 
+            "constants": [
+                3
+            ], 
+            "category": 2
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "R = \\dfrac{v_0}{g} \\sin(2\\theta)", 
+            "name": "Projectile motion, range", 
+            "variables": [
+                19, 
+                20, 
+                6
+            ], 
+            "sympy": "R = ( v0 ** 2 / g ) * sin( 2 * theta )", 
+            "constants": [
+                3
+            ], 
+            "category": 2
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "F_\\text{net} = 0", 
+            "name": "Condition for equilibrium", 
+            "variables": [
+                23
+            ], 
+            "sympy": "F_net = 0", 
+            "constants": [], 
+            "category": 5
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "W = mg", 
+            "name": "Definition of weight", 
+            "variables": [
+                24, 
+                11
+            ], 
+            "sympy": "W = m * g", 
+            "constants": [
+                3
+            ], 
+            "category": 5
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "F_k = \\mu_k N", 
+            "name": "Kinetic friction", 
+            "variables": [
+                25, 
+                27, 
+                26
+            ], 
+            "sympy": "F_k = mu_k * N", 
+            "constants": [], 
+            "category": 5
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "F_\\text{grav} = \\dfrac{G m_1 m_2}{r_{12}^2}", 
+            "name": "Newton's law of gravity", 
+            "variables": [
+                15, 
+                16, 
+                17, 
+                18
+            ], 
+            "sympy": "F_grav = G * m1 * m2 / r12 ** 2", 
+            "constants": [
+                2
+            ], 
+            "category": 5
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "F_\\text{net} = ma", 
+            "name": "Newton's second law", 
+            "variables": [
+                23, 
+                7, 
+                11
+            ], 
+            "sympy": "F_net = ma", 
+            "constants": [], 
+            "category": 5
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "F_{s,\\text{max}} = \\mu_s N", 
+            "name": "Static friction, maximum value", 
+            "variables": [
+                28, 
+                27, 
+                29
+            ], 
+            "sympy": "F_s_max = mu_s * N", 
+            "constants": [], 
+            "category": 5
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "\\tan(\\theta) = \\dfrac{rg}{v^2}", 
+            "name": "Angle of banked curve to balance weight", 
+            "variables": [
+                31, 
+                20, 
+                32
+            ], 
+            "sympy": "tan( theta ) = r * g / v ** 2", 
+            "constants": [
+                3
+            ], 
+            "category": 7
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "F_\\text{ucm} = \\dfrac{mv^2}{r}", 
+            "name": "Centripetal force", 
+            "variables": [
+                33, 
+                11, 
+                31, 
+                32
+            ], 
+            "sympy": "F_ucm = ( m * v ** 2 ) / r", 
+            "constants": [], 
+            "category": 7
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "Gm_1 = m_2 v^2", 
+            "name": "Kepler's 3rd law for circular orbits #1", 
+            "variables": [
+                16, 
+                17, 
+                32
+            ], 
+            "sympy": "G * m_1 = m_2 * v ** 2", 
+            "constants": [
+                2
+            ], 
+            "category": 7
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "Gm_1 T^2 = 4\\pi^2 T^3", 
+            "name": "Kepler's 3rd law for circular orbits #2", 
+            "variables": [
+                30, 
+                16, 
+                31
+            ], 
+            "sympy": "G * m_1 * T^2 = ( 4 * pi ** 2 ) * r ** 3", 
+            "constants": [
+                2
+            ], 
+            "category": 7
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "r = \\dfrac{mv}{qB}", 
+            "name": "Radius of curvature in mass spectrometer", 
+            "variables": [
+                35, 
+                11, 
+                34, 
+                31, 
+                32
+            ], 
+            "sympy": "r = m * v / q * B", 
+            "constants": [], 
+            "category": 7
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "v = \\dfrac{2\\pi r}{T}", 
+            "name": "Speed in uniform circular motion", 
+            "variables": [
+                30, 
+                31, 
+                32
+            ], 
+            "sympy": "v = 2 * pi * r / T", 
+            "constants": [], 
+            "category": 7
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "KE_\\text{lin} = \\tfrac{1}{2} mv^2", 
+            "name": "Kinetic energy (linear)", 
+            "variables": [
+                10, 
+                11, 
+                5
+            ], 
+            "sympy": "KE_lin = Rational(1,2) * m * v ** 2", 
+            "constants": [], 
+            "category": 4
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "KE_\\text{rot} = \\tfrac{1}{2} I\\omega^2", 
+            "name": "Kinetic energy (rotation)", 
+            "variables": [
+                13, 
+                12, 
+                14
+            ], 
+            "sympy": "KE_rot = Rational(1,2) * I * omega ** 2", 
+            "constants": [], 
+            "category": 4
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "\\alpha = \\dfrac{\\Delta \\omega}{\\Delta t}", 
+            "name": "Definition of angular acceleration", 
+            "variables": [
+                39, 
+                40, 
+                38
+            ], 
+            "sympy": "alpha = domega / dt", 
+            "constants": [], 
+            "category": 8
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "\\omega = \\dfrac{\\Delta \\theta}{\\Delta t}", 
+            "name": "Definition of angular speed", 
+            "variables": [
+                38, 
+                37, 
+                14
+            ], 
+            "sympy": "omega = dtheta / dt", 
+            "constants": [], 
+            "category": 8
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "\\theta = s/r", 
+            "name": "Definition of radian", 
+            "variables": [
+                31, 
+                36
+            ], 
+            "sympy": "theta = s / r", 
+            "constants": [], 
+            "category": 8
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "eqns.equation", 
+        "fields": {
+            "latex": "PV = nRT", 
+            "name": "Ideal gas law", 
+            "variables": [
+                1, 
+                4, 
+                2, 
+                3
+            ], 
+            "sympy": "P * V = n * R * T", 
+            "constants": [
+                1
+            ], 
+            "category": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "eqns.category", 
+        "fields": {
+            "sort_order": 100, 
+            "name": "Linear kinematics"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "eqns.category", 
+        "fields": {
+            "sort_order": 200, 
+            "name": "Dynamics 1"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "eqns.category", 
+        "fields": {
+            "sort_order": 250, 
+            "name": "Uniform circular motion"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "eqns.category", 
+        "fields": {
+            "sort_order": 300, 
+            "name": "Dynamics 2"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "eqns.category", 
+        "fields": {
+            "sort_order": 350, 
+            "name": "Angular kinematics"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "eqns.category", 
+        "fields": {
+            "sort_order": 500, 
+            "name": "Thermodynamics"
+        }
+    }
+]

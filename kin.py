@@ -1,9 +1,11 @@
+#!/usr/bin/python
+
 from sympy import *
 from sympy.abc import *
 
 x0, v0 = symbols('x0 v0')
 
-kin1 = Eq(x, x0 + v0 * t + Rational(1,2) * a * t**2)
+kin1 = Eq(d, v0 * t + Rational(1,2) * a * t**2)
 kin2 = Eq(v, v0 + a * t)
 
 print ""
@@ -16,9 +18,8 @@ print "How long does it take an object released from rest to fall five meters?"
 print ""
 
 values = dict()
-values[x0] = 5
-values[v0] = 1
-values[x] = 0
+values[d] = -5
+values[v0] = 0
 values[a] = -9.81
 
 print "The parameters for this problem are:"
