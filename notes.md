@@ -10,7 +10,7 @@
 04. Calculate v(EQ). Remove the VOI. Return to step 1 if non-empty.
 05. If the number of equations in EQ is greater than one, use context to 
     break the tie.
-06. Verify context of the remaining equation. If this doesn't work, start 
+06. Verify context of the remaining equation. If this doesn't check, start 
     over --- something is seriously wrong!
 07. Parse the question to identify the unknown and record the given data,
     whether explicit or implicit. 
