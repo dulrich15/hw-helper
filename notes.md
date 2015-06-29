@@ -12,6 +12,6 @@
     break the tie.
 06. Verify context of the remaining equation. If this doesn't work, start 
     over --- something is seriously wrong!
-07. Parse the question to identify the unknown, the given data, and the 
-    implicit data.
+07. Parse the question to identify the unknown and record the given data,
+    whether explicit or implicit. 
 08. Solve it and prosper!
