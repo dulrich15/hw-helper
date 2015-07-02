@@ -1,0 +1,6 @@
+<dl>
+{% for equation in json %}
+<dt>{{ equation.name }}</dt>
+<dd>{{ equation.sympy }}</dd>
+{% endfor %}
+</dl>
